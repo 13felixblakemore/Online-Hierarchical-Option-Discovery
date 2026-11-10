@@ -1,0 +1,389 @@
+{
+  "q_learning": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.081,
+        "evaluation_spl": 0.9183090332612005,
+        "evaluation_optimal": 0.668,
+        "training_goals": 30993,
+        "final_training_steps": 12.490632025980515,
+        "completed_episodes": 33131.0,
+        "options_created": 0.0,
+        "options_pruned": 0.0,
+        "hindsight_updates": 0.0,
+        "longest_option_execution": 0.0,
+        "max_option_depth": 0.0
+      },
+      {
+        "seed": 1,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.054,
+        "evaluation_spl": 0.920669484235235,
+        "evaluation_optimal": 0.695,
+        "training_goals": 29353,
+        "final_training_steps": 12.531073800275655,
+        "completed_episodes": 31608.0,
+        "options_created": 0.0,
+        "options_pruned": 0.0,
+        "hindsight_updates": 0.0,
+        "longest_option_execution": 0.0,
+        "max_option_depth": 0.0
+      },
+      {
+        "seed": 2,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.005,
+        "evaluation_spl": 0.9140908204626471,
+        "evaluation_optimal": 0.659,
+        "training_goals": 30667,
+        "final_training_steps": 12.458605868062044,
+        "completed_episodes": 32855.0,
+        "options_created": 0.0,
+        "options_pruned": 0.0,
+        "hindsight_updates": 0.0,
+        "longest_option_execution": 0.0,
+        "max_option_depth": 0.0
+      },
+      {
+        "seed": 3,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.121,
+        "evaluation_spl": 0.905945621904755,
+        "evaluation_optimal": 0.639,
+        "training_goals": 28564,
+        "final_training_steps": 12.621292439732425,
+        "completed_episodes": 30887.0,
+        "options_created": 0.0,
+        "options_pruned": 0.0,
+        "hindsight_updates": 0.0,
+        "longest_option_execution": 0.0,
+        "max_option_depth": 0.0
+      },
+      {
+        "seed": 4,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.108,
+        "evaluation_spl": 0.9132463252114467,
+        "evaluation_optimal": 0.659,
+        "training_goals": 27891,
+        "final_training_steps": 12.653199291856348,
+        "completed_episodes": 30230.0,
+        "options_created": 0.0,
+        "options_pruned": 0.0,
+        "hindsight_updates": 0.0,
+        "longest_option_execution": 0.0,
+        "max_option_depth": 0.0
+      }
+    ],
+    "metrics": {
+      "evaluation_success": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "evaluation_steps": {
+        "mean": 9.0738,
+        "sd": 0.04630010799123462
+      },
+      "evaluation_spl": {
+        "mean": 0.9144522570150567,
+        "sd": 0.005645272050936471
+      },
+      "evaluation_optimal": {
+        "mean": 0.664,
+        "sd": 0.020322401432901552
+      },
+      "training_goals": {
+        "mean": 29493.6,
+        "sd": 1330.1615691336146
+      },
+      "final_training_steps": {
+        "mean": 12.550960685181398,
+        "sd": 0.083611805312469
+      },
+      "completed_episodes": {
+        "mean": 31742.2,
+        "sd": 1245.3126916561962
+      },
+      "options_created": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "options_pruned": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "hindsight_updates": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "longest_option_execution": {
+        "mean": 0.0,
+        "sd": 0.0
+      },
+      "max_option_depth": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    }
+  },
+  "composed_pruned_hindsight": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.1,
+        "evaluation_spl": 0.913501343176424,
+        "evaluation_optimal": 0.656,
+        "training_goals": 28402,
+        "final_training_steps": 12.615530183561471,
+        "completed_episodes": 30690.0,
+        "options_created": 1266.0,
+        "options_pruned": 1246.0,
+        "hindsight_updates": 5909.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 1,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.092,
+        "evaluation_spl": 0.9135232272247703,
+        "evaluation_optimal": 0.648,
+        "training_goals": 29881,
+        "final_training_steps": 12.574850675888085,
+        "completed_episodes": 32078.0,
+        "options_created": 1263.0,
+        "options_pruned": 1243.0,
+        "hindsight_updates": 5833.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 2,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.053,
+        "evaluation_spl": 0.91837153399576,
+        "evaluation_optimal": 0.689,
+        "training_goals": 28961,
+        "final_training_steps": 12.664851171627612,
+        "completed_episodes": 31263.0,
+        "options_created": 1240.0,
+        "options_pruned": 1220.0,
+        "hindsight_updates": 5591.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 3,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.109,
+        "evaluation_spl": 0.9121976538569447,
+        "evaluation_optimal": 0.654,
+        "training_goals": 28742,
+        "final_training_steps": 12.640753381367716,
+        "completed_episodes": 31039.0,
+        "options_created": 1247.0,
+        "options_pruned": 1227.0,
+        "hindsight_updates": 5656.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 4,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 8.981,
+        "evaluation_spl": 0.9244637032538685,
+        "evaluation_optimal": 0.69,
+        "training_goals": 28209,
+        "final_training_steps": 12.50475178191822,
+        "completed_episodes": 30561.0,
+        "options_created": 1267.0,
+        "options_pruned": 1247.0,
+        "hindsight_updates": 5893.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      }
+    ],
+    "metrics": {
+      "evaluation_success": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "evaluation_steps": {
+        "mean": 9.067,
+        "sd": 0.05260703375025055
+      },
+      "evaluation_spl": {
+        "mean": 0.9164114923015536,
+        "sd": 0.005080534966544619
+      },
+      "evaluation_optimal": {
+        "mean": 0.6674,
+        "sd": 0.020391174561559672
+      },
+      "training_goals": {
+        "mean": 28839.0,
+        "sd": 651.5224478097435
+      },
+      "final_training_steps": {
+        "mean": 12.60014743887262,
+        "sd": 0.06287348808473306
+      },
+      "completed_episodes": {
+        "mean": 31126.2,
+        "sd": 600.4087774175191
+      },
+      "options_created": {
+        "mean": 1256.6,
+        "sd": 12.300406497347964
+      },
+      "options_pruned": {
+        "mean": 1236.6,
+        "sd": 12.300406497347964
+      },
+      "hindsight_updates": {
+        "mean": 5776.4,
+        "sd": 144.2664202092781
+      },
+      "longest_option_execution": {
+        "mean": 2.0,
+        "sd": 0.0
+      },
+      "max_option_depth": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    }
+  },
+  "composed_pruned_hindsight_support": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.1,
+        "evaluation_spl": 0.9161412025023481,
+        "evaluation_optimal": 0.667,
+        "training_goals": 29646,
+        "final_training_steps": 12.48146530204693,
+        "completed_episodes": 31862.0,
+        "options_created": 1206.0,
+        "options_pruned": 1186.0,
+        "hindsight_updates": 8533.0,
+        "longest_option_execution": 3.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 1,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.055,
+        "evaluation_spl": 0.9244348372216019,
+        "evaluation_optimal": 0.704,
+        "training_goals": 30134,
+        "final_training_steps": 12.564329689659505,
+        "completed_episodes": 32331.0,
+        "options_created": 1208.0,
+        "options_pruned": 1188.0,
+        "hindsight_updates": 8266.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 2,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.012,
+        "evaluation_spl": 0.9173244269641511,
+        "evaluation_optimal": 0.678,
+        "training_goals": 26094,
+        "final_training_steps": 12.84864448156238,
+        "completed_episodes": 28537.0,
+        "options_created": 1212.0,
+        "options_pruned": 1192.0,
+        "hindsight_updates": 8267.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 3,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.118,
+        "evaluation_spl": 0.9172144379247754,
+        "evaluation_optimal": 0.674,
+        "training_goals": 29097,
+        "final_training_steps": 12.572254698598277,
+        "completed_episodes": 31380.0,
+        "options_created": 1233.0,
+        "options_pruned": 1213.0,
+        "hindsight_updates": 8322.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      },
+      {
+        "seed": 4,
+        "evaluation_success": 1.0,
+        "evaluation_steps": 9.02,
+        "evaluation_spl": 0.9233436415218769,
+        "evaluation_optimal": 0.693,
+        "training_goals": 26930,
+        "final_training_steps": 12.599155852337155,
+        "completed_episodes": 29347.0,
+        "options_created": 1189.0,
+        "options_pruned": 1169.0,
+        "hindsight_updates": 7856.0,
+        "longest_option_execution": 2.0,
+        "max_option_depth": 1.0
+      }
+    ],
+    "metrics": {
+      "evaluation_success": {
+        "mean": 1.0,
+        "sd": 0.0
+      },
+      "evaluation_steps": {
+        "mean": 9.061000000000002,
+        "sd": 0.04713809499757071
+      },
+      "evaluation_spl": {
+        "mean": 0.9196917092269506,
+        "sd": 0.003878816477940277
+      },
+      "evaluation_optimal": {
+        "mean": 0.6832,
+        "sd": 0.015023315213360821
+      },
+      "training_goals": {
+        "mean": 28380.2,
+        "sd": 1769.2976572640343
+      },
+      "final_training_steps": {
+        "mean": 12.61317000484085,
+        "sd": 0.1387895827031395
+      },
+      "completed_episodes": {
+        "mean": 30691.4,
+        "sd": 1656.925858329213
+      },
+      "options_created": {
+        "mean": 1209.6,
+        "sd": 15.757537878742351
+      },
+      "options_pruned": {
+        "mean": 1189.6,
+        "sd": 15.757537878742351
+      },
+      "hindsight_updates": {
+        "mean": 8248.8,
+        "sd": 245.48258594042878
+      },
+      "longest_option_execution": {
+        "mean": 2.2,
+        "sd": 0.44721359549995787
+      },
+      "max_option_depth": {
+        "mean": 1.0,
+        "sd": 0.0
+      }
+    }
+  }
+}

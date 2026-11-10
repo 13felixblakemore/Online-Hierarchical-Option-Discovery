@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.pytest_cache/
+.ruff_cache/
+
+# Saved experiments in results/ are intentionally retained.

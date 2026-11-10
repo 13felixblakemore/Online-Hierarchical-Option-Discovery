@@ -1,0 +1,23 @@
+seed: 42
+
+environment:
+  start: [1, 1]
+  goal: [9, 9]
+  max_steps: 200
+  random_start: false
+
+agent:
+  type: q_learning  # Change to "random" for the random baseline
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+
+training:
+  episodes: 2000
+  log_every: 100
+
+output:
+  learning_curves: true  # Save PNG in results/; false disables plotting
+  learning_curve_window: 100  # Trailing average in episodes
+  csv: ../results/training.csv
+  q_table: ../results/q_table.npy  # Saved only for Q-learning

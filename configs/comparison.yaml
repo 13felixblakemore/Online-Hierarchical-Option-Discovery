@@ -1,0 +1,17 @@
+environment:
+  start: [1, 1]
+  goal: [9, 9]
+  max_steps: 200
+  random_start: false
+agent:
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100
+experiment:
+  seeds: [0, 1, 2, 3, 4]
+  environment_steps: 100000
+  evaluation_episodes: 50

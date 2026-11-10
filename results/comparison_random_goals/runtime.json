@@ -1,0 +1,11 @@
+{
+  "python": "3.12.10",
+  "packages": {
+    "gymnasium": "1.4.0",
+    "numpy": "2.5.4",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2"
+  },
+  "training_tasks": "Same task sequence prefix within each paired seed.",
+  "evaluation_tasks": "All 1,000 evaluation tasks match within each paired seed."
+}

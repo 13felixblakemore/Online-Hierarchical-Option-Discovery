@@ -1,0 +1,37 @@
+# AG-RL-inspired tabular adaptation; fixed before running; no tuning.
+# Macro defaults: 20 rules, maximum 32 primitive steps; no pruning.
+environment:
+  type: four_rooms
+  max_steps: 200
+  random_start: true
+  random_goal: true
+  observe_goal: true
+agent:
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  compose_options: true
+  prune_options: true
+  prune_after_steps: 10000
+  manager_hindsight: true
+  hindsight_replay_limit: 100
+  option_action_selection: most_frequent
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100
+experiment:
+  agents:
+  - q_learning
+  - composed_pruned_hindsight
+  - macro
+  - macro_hindsight
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  environment_steps: 1000000
+  evaluation_episodes: 1000
+  reuse_baselines_from: comparison_random_goals

@@ -1,0 +1,16 @@
+{
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.5.4",
+    "gymnasium": "1.4.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2"
+  },
+  "reused_baselines": "C:\\Users\\13fel\\PycharmProjects\\Online Hierarchical Skill Discovery from Repetition\\results\\comparison_random_goals",
+  "baseline_sha256": {
+    "config.yaml": "18181b6bf5b2c88ed33e82cc7437ccd640286c9ace253561e24ec57666bcc605",
+    "episodes.csv": "6951faa3dcf2570f6ce512a6fd2a6ef7b3721d10e0d064ee1c92023bc0ffd84c",
+    "evaluation.csv": "550c89512f7ee601baa7f5cae0e835ed52dca6acb2f53a2915acaa16d752dad9",
+    "summary.csv": "e74e52e0fb738fc62eff55ad661a3142e0375eae66a61c35309f252d6627a723"
+  }
+}

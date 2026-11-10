@@ -1,0 +1,26 @@
+environment:
+  type: nine_rooms
+  start: [1, 1]
+  goal: [15, 15]
+  max_steps: 500
+  random_start: false
+  observe_goal: true
+agent:
+  alpha: 0.2
+  gamma: 0.99
+  epsilon: 0.2
+  learning_rate: 0.001
+  batch_size: 64
+  train_every: 4
+  target_interval: 250
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 12
+  buffer_size: 50
+  hindsight_replay_limit: 100
+  bc_epochs: 150
+experiment:
+  agents: [dqn, outcome_dqn, q_learning, composed_pruned_hindsight]
+  seeds: [0, 1, 2]
+  environment_steps: 100000
+  evaluation_episodes: 100

@@ -1,0 +1,38 @@
+{
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.5.4",
+    "gymnasium": "1.4.0",
+    "PyYAML": "6.0.3",
+    "matplotlib": "3.11.2"
+  },
+  "baseline_provenance": {
+    "four_rooms": {
+      "baseline": "C:\\Users\\13fel\\PycharmProjects\\Online Hierarchical Skill Discovery from Repetition\\results\\comparison_softmax",
+      "baseline_sha256": {
+        "config.yaml": "31ec9fca52286275b741b14b18a59338df6621e0a7d0e51ad3bc50e244c76c8e",
+        "summary.csv": "f17ea079ce4feb3caddb65b7bfce491aac9c65274a3f62ed75dbc7b9a5601acd",
+        "episodes.csv": "5855db9e80117596f78d8ce21f4f87e79e352c4c40acfa9e5a849807be1d2c76",
+        "evaluation.csv": "cee0d332f36afb82f38d91e5cc029a87396d1d5922f82f26e65bf5b32dd773a1"
+      }
+    },
+    "nine_rooms": {
+      "baseline": "C:\\Users\\13fel\\PycharmProjects\\Online Hierarchical Skill Discovery from Repetition\\results\\comparison_nine_rooms",
+      "baseline_sha256": {
+        "config.yaml": "ce50e88ed7b39feb4ed89e2282542365e93a253e6a0fb7d52921377191b299bd",
+        "summary.csv": "00afbd4a61dd75b7e4131e02d31c22d17208acfcd9e33bc4556983baf06c1713",
+        "episodes.csv": "f159d38bfaa24e87710ce9cded4ea5e89d5e723e9c16f1084b57e6395d1f8859",
+        "evaluation.csv": "81777851e0081551fe10903839f52c42bfbc5600c5dd0c4ffc41f111c9caa03b"
+      }
+    },
+    "random_goals": {
+      "baseline": "C:\\Users\\13fel\\PycharmProjects\\Online Hierarchical Skill Discovery from Repetition\\results\\comparison_random_goals",
+      "baseline_sha256": {
+        "config.yaml": "18181b6bf5b2c88ed33e82cc7437ccd640286c9ace253561e24ec57666bcc605",
+        "summary.csv": "e74e52e0fb738fc62eff55ad661a3142e0375eae66a61c35309f252d6627a723",
+        "episodes.csv": "6951faa3dcf2570f6ce512a6fd2a6ef7b3721d10e0d064ee1c92023bc0ffd84c",
+        "evaluation.csv": "550c89512f7ee601baa7f5cae0e835ed52dca6acb2f53a2915acaa16d752dad9"
+      }
+    }
+  }
+}

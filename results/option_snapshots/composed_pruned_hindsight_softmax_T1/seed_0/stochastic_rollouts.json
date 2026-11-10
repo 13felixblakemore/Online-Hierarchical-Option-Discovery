@@ -1,0 +1,3731 @@
+[
+  {
+    "option_id": 7,
+    "selections": 4385,
+    "depth": 1,
+    "children": [],
+    "start": [
+      1,
+      1
+    ],
+    "goal": [
+      2,
+      2
+    ],
+    "observed_lengths": {
+      "2": 234
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 2,
+    "sample_rollouts": [
+      {
+        "option_id": 7,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 7,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 7,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 7,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 7,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 0.9103528595433349,
+    "stochastic_states": 1
+  },
+  {
+    "option_id": 8,
+    "selections": 4402,
+    "depth": 1,
+    "children": [],
+    "start": [
+      8,
+      8
+    ],
+    "goal": [
+      9,
+      9
+    ],
+    "observed_lengths": {
+      "2": 3928
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 8,
+        "positions": [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 8,
+        "positions": [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 8,
+        "positions": [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 8,
+        "positions": [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 8,
+        "positions": [
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 0.9999997228239907,
+    "stochastic_states": 1
+  },
+  {
+    "option_id": 9,
+    "selections": 4739,
+    "depth": 1,
+    "children": [],
+    "start": [
+      6,
+      8
+    ],
+    "goal": [
+      8,
+      8
+    ],
+    "observed_lengths": {
+      "2": 81
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 9,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 9,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 9,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 9,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 9,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 10,
+    "selections": 4594,
+    "depth": 1,
+    "children": [],
+    "start": [
+      4,
+      8
+    ],
+    "goal": [
+      6,
+      8
+    ],
+    "observed_lengths": {
+      "2": 203
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 10,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 10,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 10,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 10,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 10,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 11,
+    "selections": 4847,
+    "depth": 1,
+    "children": [],
+    "start": [
+      2,
+      2
+    ],
+    "goal": [
+      2,
+      4
+    ],
+    "observed_lengths": {
+      "2": 96
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 11,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 11,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 11,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 11,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 11,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 12,
+    "selections": 4602,
+    "depth": 1,
+    "children": [],
+    "start": [
+      2,
+      4
+    ],
+    "goal": [
+      2,
+      6
+    ],
+    "observed_lengths": {
+      "2": 207
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 12,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 12,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 12,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 12,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 12,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 13,
+    "selections": 4636,
+    "depth": 1,
+    "children": [],
+    "start": [
+      2,
+      6
+    ],
+    "goal": [
+      3,
+      7
+    ],
+    "observed_lengths": {
+      "2": 804
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 13,
+        "positions": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 13,
+        "positions": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 13,
+        "positions": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 13,
+        "positions": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 13,
+        "positions": [
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 14,
+    "selections": 4454,
+    "depth": 1,
+    "children": [],
+    "start": [
+      3,
+      7
+    ],
+    "goal": [
+      4,
+      8
+    ],
+    "observed_lengths": {
+      "2": 4133
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 14,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 14,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 14,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 14,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 14,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 15,
+    "selections": 195,
+    "depth": 1,
+    "children": [],
+    "start": [
+      2,
+      7
+    ],
+    "goal": [
+      4,
+      7
+    ],
+    "observed_lengths": {
+      "2": 195
+    },
+    "target_success": 1.0,
+    "mean_steps": 2.0,
+    "length_counts": {
+      "2": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 15,
+        "positions": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 15,
+        "positions": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 15,
+        "positions": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 15,
+        "positions": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 15,
+        "positions": [
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 16,
+    "selections": 267,
+    "depth": 2,
+    "children": [
+      8,
+      9
+    ],
+    "start": [
+      6,
+      8
+    ],
+    "goal": [
+      9,
+      9
+    ],
+    "observed_lengths": {
+      "4": 267
+    },
+    "target_success": 1.0,
+    "mean_steps": 4.0,
+    "length_counts": {
+      "4": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 16,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 16,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 16,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 16,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 16,
+        "positions": [
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 17,
+    "selections": 4391,
+    "depth": 2,
+    "children": [
+      9,
+      10
+    ],
+    "start": [
+      4,
+      8
+    ],
+    "goal": [
+      8,
+      8
+    ],
+    "observed_lengths": {
+      "4": 4048
+    },
+    "target_success": 1.0,
+    "mean_steps": 4.0,
+    "length_counts": {
+      "4": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 17,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 17,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 17,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 17,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 17,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 18,
+    "selections": 4151,
+    "depth": 2,
+    "children": [
+      7,
+      11
+    ],
+    "start": [
+      1,
+      1
+    ],
+    "goal": [
+      2,
+      4
+    ],
+    "observed_lengths": {
+      "4": 4019
+    },
+    "target_success": 1.0,
+    "mean_steps": 4.0,
+    "length_counts": {
+      "4": 200
+    },
+    "unique_paths": 2,
+    "sample_rollouts": [
+      {
+        "option_id": 18,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 18,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 18,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 18,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 18,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 19,
+    "selections": 600,
+    "depth": 2,
+    "children": [
+      11,
+      12
+    ],
+    "start": [
+      2,
+      2
+    ],
+    "goal": [
+      2,
+      6
+    ],
+    "observed_lengths": {
+      "4": 574
+    },
+    "target_success": 1.0,
+    "mean_steps": 4.0,
+    "length_counts": {
+      "4": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 19,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 19,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 19,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 19,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 19,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 20,
+    "selections": 3795,
+    "depth": 2,
+    "children": [
+      12,
+      13
+    ],
+    "start": [
+      2,
+      4
+    ],
+    "goal": [
+      3,
+      7
+    ],
+    "observed_lengths": {
+      "4": 3559
+    },
+    "target_success": 1.0,
+    "mean_steps": 4.0,
+    "length_counts": {
+      "4": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 20,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 20,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 20,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 20,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 20,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 21,
+    "selections": 203,
+    "depth": 3,
+    "children": [
+      8,
+      10,
+      16,
+      17
+    ],
+    "start": [
+      4,
+      8
+    ],
+    "goal": [
+      9,
+      9
+    ],
+    "observed_lengths": {
+      "6": 137
+    },
+    "target_success": 1.0,
+    "mean_steps": 6.0,
+    "length_counts": {
+      "6": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 21,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 21,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 21,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 21,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 21,
+        "positions": [
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 22,
+    "selections": 132,
+    "depth": 3,
+    "children": [
+      18,
+      20
+    ],
+    "start": [
+      1,
+      1
+    ],
+    "goal": [
+      3,
+      7
+    ],
+    "observed_lengths": {
+      "8": 132
+    },
+    "target_success": 1.0,
+    "mean_steps": 8.0,
+    "length_counts": {
+      "8": 200
+    },
+    "unique_paths": 2,
+    "sample_rollouts": [
+      {
+        "option_id": 22,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 22,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 22,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 22,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 22,
+        "positions": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 23,
+    "selections": 140,
+    "depth": 3,
+    "children": [
+      14,
+      17
+    ],
+    "start": [
+      3,
+      7
+    ],
+    "goal": [
+      8,
+      8
+    ],
+    "observed_lengths": {
+      "6": 136
+    },
+    "target_success": 1.0,
+    "mean_steps": 6.0,
+    "length_counts": {
+      "6": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 23,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 23,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 23,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 23,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 23,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 24,
+    "selections": 104,
+    "depth": 3,
+    "children": [
+      14,
+      20
+    ],
+    "start": [
+      2,
+      4
+    ],
+    "goal": [
+      4,
+      8
+    ],
+    "observed_lengths": {
+      "6": 104
+    },
+    "target_success": 1.0,
+    "mean_steps": 6.0,
+    "length_counts": {
+      "6": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 24,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 24,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 24,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 24,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 24,
+        "positions": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 1.0,
+    "stochastic_states": 0
+  },
+  {
+    "option_id": 26,
+    "selections": 26,
+    "depth": 3,
+    "children": [
+      11,
+      13,
+      19,
+      20
+    ],
+    "start": [
+      2,
+      2
+    ],
+    "goal": [
+      3,
+      7
+    ],
+    "observed_lengths": {
+      "6": 26
+    },
+    "target_success": 1.0,
+    "mean_steps": 6.0,
+    "length_counts": {
+      "6": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 26,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 26,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 26,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 26,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 26,
+        "positions": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            7
+          ]
+        ],
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 0.9999588684746712,
+    "stochastic_states": 1
+  },
+  {
+    "option_id": 27,
+    "selections": 70,
+    "depth": 4,
+    "children": [
+      8,
+      14,
+      21,
+      23
+    ],
+    "start": [
+      3,
+      7
+    ],
+    "goal": [
+      9,
+      9
+    ],
+    "observed_lengths": {
+      "8": 70
+    },
+    "target_success": 1.0,
+    "mean_steps": 8.0,
+    "length_counts": {
+      "8": 200
+    },
+    "unique_paths": 1,
+    "sample_rollouts": [
+      {
+        "option_id": 27,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 27,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 27,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 27,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      },
+      {
+        "option_id": 27,
+        "positions": [
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "actions": [
+          2,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "reached_target": true
+      }
+    ],
+    "mean_max_probability": 0.9602656926592941,
+    "stochastic_states": 1
+  }
+]

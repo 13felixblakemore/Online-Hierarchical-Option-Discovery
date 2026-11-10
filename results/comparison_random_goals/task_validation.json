@@ -1,0 +1,72 @@
+[
+  {
+    "agent": "q_learning",
+    "seed": 0,
+    "tasks_seen": 33132,
+    "unique_pairs": 10229,
+    "unique_goals": 104
+  },
+  {
+    "agent": "composed_pruned_hindsight",
+    "seed": 0,
+    "tasks_seen": 30691,
+    "unique_pairs": 10106,
+    "unique_goals": 104
+  },
+  {
+    "agent": "q_learning",
+    "seed": 1,
+    "tasks_seen": 31609,
+    "unique_pairs": 10152,
+    "unique_goals": 104
+  },
+  {
+    "agent": "composed_pruned_hindsight",
+    "seed": 1,
+    "tasks_seen": 32079,
+    "unique_pairs": 10176,
+    "unique_goals": 104
+  },
+  {
+    "agent": "q_learning",
+    "seed": 2,
+    "tasks_seen": 32856,
+    "unique_pairs": 10225,
+    "unique_goals": 104
+  },
+  {
+    "agent": "composed_pruned_hindsight",
+    "seed": 2,
+    "tasks_seen": 31264,
+    "unique_pairs": 10158,
+    "unique_goals": 104
+  },
+  {
+    "agent": "q_learning",
+    "seed": 3,
+    "tasks_seen": 30888,
+    "unique_pairs": 10123,
+    "unique_goals": 104
+  },
+  {
+    "agent": "composed_pruned_hindsight",
+    "seed": 3,
+    "tasks_seen": 31040,
+    "unique_pairs": 10132,
+    "unique_goals": 104
+  },
+  {
+    "agent": "q_learning",
+    "seed": 4,
+    "tasks_seen": 30231,
+    "unique_pairs": 10078,
+    "unique_goals": 104
+  },
+  {
+    "agent": "composed_pruned_hindsight",
+    "seed": 4,
+    "tasks_seen": 30562,
+    "unique_pairs": 10093,
+    "unique_goals": 104
+  }
+]

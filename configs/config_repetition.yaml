@@ -1,0 +1,33 @@
+seed: 42
+
+environment:
+  start: [1, 1]
+  goal: [9, 9]
+  max_steps: 200
+  random_start: false
+
+agent:
+  type: repetition
+  option_action_selection: most_frequent  # Or softmax over demonstrated action counts
+  option_temperature: 1.0  # Softmax temperature; must be finite and positive
+  compose_options: false  # true allows policies to call previously learned options
+  prune_options: false
+  manager_hindsight: false  # Replay compatible past behaviour when creating an option
+  hindsight_replay_limit: 100  # Maximum manager updates per new option
+  prune_after_steps: 10000  # Primitive steps since last use; checked at discovery intervals
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  discovery_interval: 10  # Episodes; no separate warm-up phase
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100  # Most recent successful episodes
+
+training:
+  episodes: 2000
+  log_every: 100
+
+output:
+  learning_curves: true  # Save PNG in results/; false disables plotting
+  learning_curve_window: 100  # Trailing average in episodes
+  csv: ../results/repetition_training.csv

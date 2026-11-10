@@ -1,0 +1,35 @@
+agent:
+  alpha: 0.1
+  buffer_size: 100
+  compose_options: true
+  discovery_interval: 10
+  epsilon: 0.2
+  gamma: 0.99
+  max_options: 20
+  min_occurrences: 3
+  prune_after_steps: 10000
+  prune_options: true
+environment:
+  goal:
+  - 9
+  - 9
+  max_steps: 200
+  random_start: false
+  start:
+  - 1
+  - 1
+experiment:
+  agents:
+  - q_learning
+  - repetition
+  - repetition_pruned
+  - composed
+  - composed_pruned
+  environment_steps: 100000
+  evaluation_episodes: 50
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

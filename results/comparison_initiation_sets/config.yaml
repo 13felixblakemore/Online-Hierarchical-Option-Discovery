@@ -1,0 +1,36 @@
+agent:
+  alpha: 0.1
+  buffer_size: 100
+  compose_options: true
+  discovery_interval: 10
+  epsilon: 0.2
+  gamma: 0.99
+  hindsight_replay_limit: 100
+  manager_hindsight: true
+  max_options: 20
+  min_occurrences: 3
+  option_action_selection: most_frequent
+  option_initiation: single_state
+  prune_after_steps: 10000
+  prune_options: true
+environment:
+  max_steps: 200
+  observe_goal: true
+  random_goal: true
+  random_start: true
+  type: four_rooms
+experiment:
+  agents:
+  - q_learning
+  - composed_pruned_hindsight
+  - composed_pruned_hindsight_support
+  environment_steps: 1000000
+  evaluation_episodes: 1000
+  reuse_baselines_from: comparison_random_goals
+  save_options: true
+  seeds:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

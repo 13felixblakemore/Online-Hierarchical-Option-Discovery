@@ -1,0 +1,28 @@
+# Fixed before running: same protocol as the previous Four Rooms comparisons.
+# T=1 is the implementation default; no temperature sweep or tuning.
+environment:
+  start: [1, 1]
+  goal: [9, 9]
+  max_steps: 200
+  random_start: false
+agent:
+  compose_options: true
+  prune_options: true
+  prune_after_steps: 10000
+  manager_hindsight: true
+  hindsight_replay_limit: 100
+  option_action_selection: most_frequent
+  option_temperature: 1.0
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100
+experiment:
+  agents: [q_learning, repetition, repetition_pruned, composed, composed_pruned, composed_pruned_hindsight, repetition_softmax, composed_pruned_hindsight_softmax]
+  seeds: [0, 1, 2, 3, 4]
+  environment_steps: 100000
+  evaluation_episodes: 50
+  snapshot_steps: [0, 5000, 10000, 15000, 20000, 30000, 50000, 100000]

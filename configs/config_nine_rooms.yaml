@@ -1,0 +1,28 @@
+seed: 42
+environment:
+  type: nine_rooms
+  start: [1, 1]
+  goal: [15, 15]
+  max_steps: 500
+  random_start: false
+agent:
+  type: repetition
+  compose_options: true
+  prune_options: true
+  prune_after_steps: 10000
+  manager_hindsight: true
+  hindsight_replay_limit: 100
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100
+training:
+  episodes: 5000
+  log_every: 100
+output:
+  csv: ../results/nine_rooms_training.csv
+  learning_curves: true
+  learning_curve_window: 100

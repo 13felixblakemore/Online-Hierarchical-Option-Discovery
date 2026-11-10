@@ -1,0 +1,25 @@
+environment:
+  type: nine_rooms
+  start: [1, 1]
+  goal: [15, 15]
+  max_steps: 500
+  random_start: false
+agent:
+  compose_options: true
+  prune_options: true
+  prune_after_steps: 10000
+  manager_hindsight: true
+  hindsight_replay_limit: 100
+  alpha: 0.1
+  gamma: 0.99
+  epsilon: 0.2
+  discovery_interval: 10
+  min_occurrences: 3
+  max_options: 20
+  buffer_size: 100
+experiment:
+  agents: [q_learning, repetition, repetition_pruned, composed, composed_pruned, composed_pruned_hindsight]
+  seeds: [0, 1, 2, 3, 4]
+  environment_steps: 300000
+  evaluation_episodes: 50
+  snapshot_steps: [0, 10000, 25000, 50000, 100000, 150000, 200000, 300000]
